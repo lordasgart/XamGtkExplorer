@@ -5,9 +5,19 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="XamGtkExplorer.Views.MainPage"
              Title="MainPage">
-  <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-    <Label Text="{Binding Title}" />
-      <Entry Text="Enter here..."></Entry>
-      <Button Text="Press here"></Button>
-  </StackLayout>
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="{Binding Title}" />
+        <Entry Text="Enter here..."></Entry>
+        <Button Text="Press here"></Button>
+        <DatePicker></DatePicker>
+        <Editor></Editor>
+        <Image Source="http://hd-hintergrundbilder.com/natur/de-zon-komt-op.jpg" WidthRequest="128"></Image>
+        <Picker></Picker>
+        <ProgressBar Progress="0.3"></ProgressBar>
+        <SearchBar></SearchBar>
+        <Stepper></Stepper>
+        <Switch></Switch>
+        <Slider></Slider>
+        <TimePicker></TimePicker>
+    </StackLayout>
 </ContentPage>
