@@ -7,5 +7,7 @@
              Title="MainPage">
   <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
     <Label Text="{Binding Title}" />
+      <Entry Text="Enter here..."></Entry>
+      <Button Text="Press here"></Button>
   </StackLayout>
 </ContentPage>

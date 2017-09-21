@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Net;
+using Gdk;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.GTK;
 
@@ -19,7 +20,8 @@ namespace XamGtkExplorer.GTK
             var app = new App();
             var window = new FormsWindow();
             window.LoadApplication(app);
-            window.SetApplicationTitle("WeatherApp");
+            window.SetApplicationTitle("XamGtkExplorer");
+            window.Icon = Pixbuf.LoadFromResource("XamGtkExplorer.GTK.Application-icon.png");
             window.Show();
             Gtk.Application.Run();
         }
