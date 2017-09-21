@@ -12,7 +12,19 @@
         <DatePicker></DatePicker>
         <Editor></Editor>
         <Image Source="http://hd-hintergrundbilder.com/natur/de-zon-komt-op.jpg" WidthRequest="128"></Image>
-        <Picker></Picker>
+        <Picker>
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Baboon</x:String>
+                    <x:String>Capuchin Monkey</x:String>
+                    <x:String>Blue Monkey</x:String>
+                    <x:String>Squirrel Monkey</x:String>
+                    <x:String>Golden Lion Tamarin</x:String>
+                    <x:String>Howler Monkey</x:String>
+                    <x:String>Japanese Macaque</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
         <ProgressBar Progress="0.3"></ProgressBar>
         <SearchBar></SearchBar>
         <Stepper></Stepper>
